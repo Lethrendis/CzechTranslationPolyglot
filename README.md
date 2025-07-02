@@ -10,7 +10,7 @@ Tento modul poskytuje českou lokalizaci pro Polyglot verze 2.4.23. Obsahuje př
 Pro instalaci modulu obvyklým upůsobem můžeš použít následující odkaz ve Foundry VTT:
 
 ```
-https://raw.githubusercontent.com/Lethrendis/CzechTranslationPolyglot/main/module.json
+https://raw.githubusercontent.com/Lethrendis/CzechTranslationPolyglot/Core12/module.json
 ```
 
 ## Autor
