@@ -1,6 +1,6 @@
 {
 	"POLYGLOT": {
-		"GameMasterHasAssignedCharacter": "Jsi {GM} a máš k sobě propojenou postavu. Polyglot se kvůli tomu může chovat podivně. Zvaž odebrání této postavy od tvého uživatele.",
+		"GameMasterHasAssignedCharacter": "Jsi {GM} a máš propojenou postavu. Polyglot se kvůli tomu může chovat podivně. Zvaž odpojení této postavy.",
 		"DefaultAlphabet": "Výchozí abeceda",
 		"FontSettings": "Nastavení písem",
 		"GeneralSettings": "Obecná nastavení",
@@ -34,15 +34,11 @@
 		"ComprehendLanguages.title": "Všerozumějící jazyk",
 		"CustomLanguages.hint": "Definuj seznam vlastních jazyků, které se mají přidat do systému. Odděluj je čárkami či středníky.",
 		"CustomLanguages.title": "Vlastní jazyky",
-		"DefaultLanguage.hint": "Název výchozího jazyka k výběru. Nech prázdné pro použití systémového výchozího jazyka.",
+		"DefaultLanguage.hint": "Název výchozího jazyka k výběru. Nech prázdné pro použití výchozího jazyka systému.",
 		"DefaultLanguage.title": "Výchozí jazyk",
 		"EnableChatFeatures": {
 			"hint": "Povolí všechny funkce chatu, jako je výběr jazyka v chatu a komolení zpráv.",
 			"title": "Povolit funkce chatu?"
-		},
-		"DisplayCheckbox": {
-			"hint": "Odebere zaškrtávací políčko z části chatu.",
-			"title": "Zobrazovat zaškrtávací box?"
 		},
 		"DisplayTranslated.hint": "U jazyků, které jsou v chatu překládány, zobrazí původní text a pod ním překlad.",
 		"DisplayTranslated.title": "Zobrazovat překlady?",
@@ -108,6 +104,7 @@
 		},
 		"ScrambleGM.hint": "Neprovádí překlad textu pro GM (pro určení, zda postava rozumí, se řiď barvou glóbu).",
 		"ScrambleGM.title": "Komolit zprávy i pro GM?",
+		"SpeakingIn": "Mluví jazykem {language}",
 		"Truespeech.hint": "Nastaví jazyk, jehož mluvčí rozumí všem mluveným jazykům (ale neumí číst deníky) a kterému rozumí všechny bytosti. Postava bude moci číst všechny zprávy v chatu a psát zprávy, kterým každý porozumí.",
 		"Truespeech.title": "Všechápající jazyk",
 		"Translation": "Překlad",
@@ -129,13 +126,13 @@
 					"Title": "Výběr jazyka",
 					"Content": "<span class='reference'>Výběr jazyka</span> slouží k určení, jakým jazykem chceš mluvit. Aktivní jazyk způsobí zkomolení zpráv."
 				},
-				"LanguageSelectorCheckbox": {
-					"Title": "Zaškrtávací políčko výběru jazyka",
-					"Content": "<span class='reference'>Zaškrtávací políčko</span> přepíná zkomolení. Každý uživatel, který jej odškrtne, bude mluvit, jako by byl modul vypnutý."
-				},
 				"LanguageSelectorSelect": {
 					"Title": "Rozbalovací seznam výběru jazyka",
 					"Content": "<span class='reference'>Rozbalovací seznam</span> obsahuje všechny jazyky v daném světě.<br>V závislosti na herním systému mohou být jazyky již nastavené, v jiných systémech je možná budeš muset nastavit v <span class='reference'>Nastavení hry</span>.<br>Zobrazuje jazyky podle toho, zda je aktéři hráče znají, či nikoliv."
+				},
+				"LanguageSelectorSelect2": {
+					"Title": "Rozbalovací nabídka Výběru jazyka",
+					"Content": "Kliknutí pravým tlačítkem na <span class='reference'>rozbalovací nabídku</span> přepne komolení, což umožňuje uživatelům mluvit, jako by byl modul deaktivován."
 				},
 				"LanguageSelectorPips": {
 					"Title": "Indikátory výběru jazyka",
@@ -171,7 +168,7 @@
 				},
 				"UserConfigSelectCharacter": {
 					"Title": "Výběr postavy",
-					"Content": "GM by nikdy neměl mít vybranou postavu, protože pak budou jeho zprávy odesílány jako té postavy, pokud bude přítomna ve scéně.<br>Hráči by si měli vybrat svou hlavní postavu, jinak budou jejich zprávy odesílány jako od hráče a nebudou moci číst zprávy v jazycích, kterým rozumí jejich postava, pokud její token není na plátně.<br>Pozná se to tak, že jméno hráče v seznamu hráčů je následováno jménem postavy.<br>Je to základní chování Foundry, Polyglot jej pouze respektuje."
+					"Content": "GM by nikdy neměl mít vybranou postavu, protože pak budou jeho zprávy odesílány jako z té postavy, pokud bude přítomna ve scéně.<br>Hráči by si měli vybrat svou hlavní postavu, jinak budou jejich zprávy odesílány jako od hráče a nebudou moci číst zprávy v jazycích, kterým rozumí jejich postava, pokud její token není na plátně.<br>Pozná se to tak, že je jméno hráče v seznamu hráčů následováno jménem postavy.<br>Je to základní chování Foundry, Polyglot jej pouze respektuje."
 				},
 				"ActorOwnership": {
 					"Title": "Vlastnictví aktéra",
