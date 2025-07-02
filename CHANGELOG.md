@@ -1,5 +1,5 @@
 Changelog
 
-Verze 1.0.0:
+Verze 1.1.0:
 První verze modulu.
-Kompletní překlad Polyglotu 2.4.23.
+Kompletní překlad Polyglotu 2.6.0.
